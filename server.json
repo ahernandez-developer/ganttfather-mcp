@@ -1,0 +1,27 @@
+{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "com.ganttfather/ganttfather",
+    "title":  "GanttFather",
+    "description":  "Remote MCP server to read and edit GanttFather projects: tasks, dates, dependencies, critical path.",
+    "version":  "0.29.10",
+    "websiteUrl":  "https://ganttfather.com/mcp/",
+    "icons":  [
+                  {
+                      "src":  "https://ganttfather.com/logo.png",
+                      "mimeType":  "image/png",
+                      "sizes":  [
+                                    "512x512"
+                                ]
+                  }
+              ],
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://mcp.ganttfather.com/"
+                    }
+                ],
+    "repository":  {
+                       "url":  "https://github.com/ahernandez-developer/ganttfather-mcp",
+                       "source":  "github"
+                   }
+}
