@@ -75,6 +75,7 @@ Guides for ChatGPT, Gemini, Goose, n8n and others are at https://ganttfather.com
 
 | Tool | Title | Kind |
 | --- | --- | --- |
+| `draft_support_email` | Draft support email (never sends it) | read |
 | `get_critical_path` | Get critical path | read |
 | `get_overdue_tasks` | Get overdue tasks | read |
 | `get_project` | Get project | read |
@@ -87,7 +88,6 @@ Guides for ChatGPT, Gemini, Goose, n8n and others are at https://ganttfather.com
 | `list_resources` | List resources | read |
 | `list_tasks` | List tasks | read |
 | `render_gantt_image` | Render Gantt image (SVG or Mermaid) | read |
-| `report_issue` | Report issue (drafts an email, never sends it) | read |
 | `show_gantt_chart` | Show Gantt chart (interactive widget) | read |
 | `add_dependency` | Add dependency | write, destructive |
 | `add_resource` | Add resource | write |
